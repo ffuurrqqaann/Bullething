@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_id": "unicommsapp",
+    "project_number": "210549401368",
+    "name": "Unicommsapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210549401368:android:3297358e5bde29de",
+        "client_id": "android:unicommsapp.application.com.unicomppsapp",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "unicommsapp.application.com.unicomppsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210549401368-vdj9j2onol2fgf6gah71kapi2nd6orak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "unicommsapp.application.com.unicomppsapp",
+            "certificate_hash": "6CB76F5BB9BD2A44C4BDC0A8F3A33A0AF395FEDE"
+          }
+        },
+        {
+          "client_id": "210549401368-d5l02qtbfo12rqdvmqafg22ps7385t1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

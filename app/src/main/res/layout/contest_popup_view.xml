@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_light">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="1dp"
+        android:background="@android:color/darker_gray">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+            <TextView
+                android:id="@+id/contestViewTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Contest Title" />
+
+            <TextView
+                android:id="@+id/contestViewDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Contest Description" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="fill_parent">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/very_poor"
+                    android:background="#000000"
+                    android:src="@drawable/very_poor"
+                    />
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/poor"
+                    android:src="@drawable/poor"
+                    android:layout_toRightOf="@+id/very_poor"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/good"
+                    android:src="@drawable/good"
+                    android:layout_toRightOf="@+id/poor"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/very_good"
+                    android:src="@drawable/very_good"
+                    android:layout_toRightOf="@+id/good"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/excellent"
+                    android:src="@drawable/excellent"
+                    android:layout_toRightOf="@+id/very_good"
+                    android:layout_marginLeft="5dp"
+                    />
+
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/contestSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="submit" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
